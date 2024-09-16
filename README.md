@@ -1,6 +1,7 @@
 [Multi-modal-CrossViT-using-3D-Spatial-Information-for-Visual-Localization](https://drive.google.com/file/d/137iiBTtcethQDKu4zLgoHLvPYTEIGufb/view?usp=sharing)  
 ---
-**아직 논문 Publish 이전 단계이므로, 코드를 제공하지 않습니다.**  
+**!아직 논문 Publish 이전 단계이므로, 코드를 제공하지 않습니다.**   
+(Publish 이후 제공하겠습니다.^^)
 ---
 국문 요약  
 ---
