@@ -40,8 +40,7 @@
 ### For Teacher
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4bed04f1-9009-44e2-aaa5-491fb02d957d" alt="Loss Function 1">
-</p>
-- A pair of images captured from the same scene and 3D bounding boxes generated from their 3D points.    
+</p> - A pair of images captured from the same scene and 3D bounding boxes generated from their 3D points.    
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b8b3e578-1cfc-4770-8372-6f54f2292be8" alt="Loss Function 2">
