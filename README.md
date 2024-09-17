@@ -27,7 +27,7 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f160ace0-70f0-4b27-b52a-6ece1ea4c80a" alt="Architecture">
 </p>
-[Left] : Architecture of proposed multi-modal CrossViT model, an extension of the CrossViT architecture.  
+[Left] : Architecture of proposed multi-modal CrossViT model, an extension of the CrossViT architecture.     
 [Right] :Transferring teacher model representational capabilities to student model. 
 
 # Data Augmentation
