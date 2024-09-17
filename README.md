@@ -1,12 +1,12 @@
 ## Multi modal CrossViT using 3D-Spatial Information for Visual Localization [[Paper](https://drive.google.com/file/d/137iiBTtcethQDKu4zLgoHLvPYTEIGufb/view?usp=sharing)]    
-### 주요 결과:   
-• 기존 모델 대비 파라미터 21.6배, FLOPs 58.9배 감소   
-• 이미지 검색 정확도(Precision@K) 5-fold cross validation 결과 대부분에서 성능 향상   
-• 일부 벤치마크에서 카메라 포즈 정확도(meter, degree) 향상  
+### 주요 결과:     
+• 기존 모델 대비 파라미터 21.6배, FLOPs 58.9배 감소     
+• 이미지 검색 정확도(Precision@K) 5-fold cross validation 결과 대부분에서 성능 향상     
+• 일부 벤치마크에서 카메라 포즈 정확도(meter, degree) 향상    
 
-### 선행 연구:
-• 석사 학위 논문 (2023.12): [영상 위치 파악을 위한 공간적 CrossViT 기반 다중 모달 메트릭 학습](https://dcollection.cau.ac.kr/srch/srchDetail/000000241188?treePageNum=1&navigationSize=10&orgYn=all&thesisDegree=all&pageSize=10&ajax=false&searchText=%5B%EC%A0%84%EC%B2%B4%3AVisual+localization%5D&agreeYn=all&sortField=score&sortDir=desc&searchOption=km&searchOperator2=%2B&searchOperator3=%2B&searchWhere1=all&searchWhere2=all&insCode=211052&searchWhere3=all&searchKeyWord1=Visual+localization&query=%2B%28%28all%3Avisual%2Blocalization%29%29&itemTypeCode=all&start=0&searthTotalPage=0&rows=10&pageNum=1&searchTotalCount=0)
-• SCIE 논문 2 저자 (2023.03 출판): [Clustering Reference Images Based on Covisibility for Visual Localization](https://www.techscience.com/cmc/v75n2/52040)
+### 선행 연구:  
+• 석사 학위 논문 (2023.12): [영상 위치 파악을 위한 공간적 CrossViT 기반 다중 모달 메트릭 학습](https://dcollection.cau.ac.kr/srch/srchDetail/000000241188?treePageNum=1&navigationSize=10&orgYn=all&thesisDegree=all&pageSize=10&ajax=false&searchText=%5B%EC%A0%84%EC%B2%B4%3AVisual+localization%5D&agreeYn=all&sortField=score&sortDir=desc&searchOption=km&searchOperator2=%2B&searchOperator3=%2B&searchWhere1=all&searchWhere2=all&insCode=211052&searchWhere3=all&searchKeyWord1=Visual+localization&query=%2B%28%28all%3Avisual%2Blocalization%29%29&itemTypeCode=all&start=0&searthTotalPage=0&rows=10&pageNum=1&searchTotalCount=0)  
+• SCIE 논문 2 저자 (2023.03 출판): [Clustering Reference Images Based on Covisibility for Visual Localization](https://www.techscience.com/cmc/v75n2/52040)   
 
 **!아직 논문 Publish 이전 단계이므로, 코드를 제공하지 않습니다.** 
 
