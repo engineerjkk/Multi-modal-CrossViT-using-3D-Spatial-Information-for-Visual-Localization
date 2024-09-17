@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/27cb6dda-0b9b-4b9e-a2d3-193918806657" alt="Purpose">
 </p>
-
+The proposed approach is capable of generating distinct embeddings for scenes that are physically distant from each other even when they have similar visual features. Here, the embeddings of an anchor image (black outline) and its corresponding positive image (red outline) are close to each other in the embedding space but that of the negative image (blue outline) is farther away.   
 # Pipe-Line
 <p align="center">
   <img src="https://github.com/user-attachments/assets/dfbdde7a-63c7-44af-a12e-01ed88ac0269" alt="Pipe-Line">
