@@ -8,6 +8,15 @@
   <img src="https://github.com/user-attachments/assets/27cb6dda-0b9b-4b9e-a2d3-193918806657" alt="Purpose">
 </p>
 The proposed approach is capable of generating distinct embeddings for scenes that are physically distant from each other even when they have similar visual features. Here, the embeddings of an anchor image (black outline) and its corresponding positive image (red outline) are close to each other in the embedding space but that of the negative image (blue outline) is farther away.   
+
+# Contribution
+●	A multi-modal CrossViT architecture, capable of generating effective global representations from 2D images and 3D spatial information as part of a hierarchical framework.
+●	A RoPE-based 3D spatial information encoding approach for the multi-modal CrossViT architecture.
+●	A novel spatial contrastive learning strategy, in which positive and negative image sets for each anchor image are designated based on the presence of shared 3D points as well as a quantitative measure of similarity based on the IoU between 3D bounding boxes that are generated from a pair of images.
+●	A knowledge distillation approach to transfer the embedding capacity of the proposed multi-modal CrossViT architecture onto an architecture that takes a single image as input. This bridges the gap between the rich multi-modal representations and the practical constraints of real-world applications.
+●	A comprehensive analysis of the performance of various global and local matching technique combinations in a hierarchical pipeline, as well as the effects of hard negative sampling and data augmentation techniques such as day-to-night stylization on large-scale datasets.
+
+
 # Pipe-Line
 <p align="center">
   <img src="https://github.com/user-attachments/assets/dfbdde7a-63c7-44af-a12e-01ed88ac0269" alt="Pipe-Line">
