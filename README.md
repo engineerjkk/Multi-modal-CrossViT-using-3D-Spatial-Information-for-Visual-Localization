@@ -13,13 +13,12 @@
 ![image](https://github.com/user-attachments/assets/f160ace0-70f0-4b27-b52a-6ece1ea4c80a)
 
 ## Loss Function
-![image](https://github.com/user-attachments/assets/4bed04f1-9009-44e2-aaa5-491fb02d957d)
-
-w_{i,j} = \begin{cases}
-  0.5 + 0.5 \times \frac{IoU - IoU_{min}}{IoU_{max} - IoU_{min}} & \text{if } IoU < IoU_{max} \\
-  1.0 & \text{otherwise}
-\end{cases}
-
+![image](https://github.com/user-attachments/assets/4bed04f1-9009-44e2-aaa5-491fb02d957d)  
+w_ij = {  
+  0.5 + 0.5 * (IoU - IoU_min) / (IoU_max - IoU_min)  if IoU < IoU_max  
+  1.0                                                otherwise  
+}  
+L_Teacher(I_i, I_j) = w_ij * (1/2) * d_ij^2 + (1 - w_ij) * (1/2) * max(τ - d_ij, 0)^2
 ![강준구_논문요약본_page-0002](https://github.com/user-attachments/assets/3759e5ee-9a02-40f1-a573-7719366881d0)
 ![강준구_논문요약본_page-0003](https://github.com/user-attachments/assets/ef0fe2e4-fb4c-41c0-8eae-1573911ded77)
 ![강준구_논문요약본_page-0004](https://github.com/user-attachments/assets/0ec8402e-ddf6-4d2f-a6da-d95f13a20d54)
