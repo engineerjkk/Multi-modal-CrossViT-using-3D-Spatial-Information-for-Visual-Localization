@@ -1,5 +1,6 @@
-**!아직 논문 Publish 이전 단계이므로, 코드를 제공하지 않습니다:** 업로드된 코드는 Base 코드입니다.  
-
+**!아직 논문 Publish 이전 단계이므로, 코드를 제공하지 않습니다:** 업로드된 코드는 Base 코드입니다.    
+: 현재 1차 Revision 완료.  
+  
 ## Multi modal CrossViT using 3D-Spatial Information for Visual Localization [[Paper](https://drive.google.com/file/d/137iiBTtcethQDKu4zLgoHLvPYTEIGufb/view?usp=sharing)]    
 ### 주요 결과:     
 • 기존 모델 대비 파라미터 21.6배, FLOPs 58.9배 감소     
