@@ -1,7 +1,7 @@
 **!아직 논문 Publish 이전 단계이므로, 코드를 제공하지 않습니다:** 업로드된 코드는 Base 코드입니다.    
 : 1차 Revision 완료 및 업데이트(↓).    
   
-## Multi modal CrossViT using 3D-Spatial Information for Visual Localization [[Paper](https://drive.google.com/file/d/1r13JvFfBZ3RJEctzkqPet2uWhn5xn2lN/view?usp=sharing)]    
+## Multi modal CrossViT using 3D-Spatial Information for Visual Localization [[Paper](https://drive.google.com/file/d/1Hr5utzpZ1N-jLoH12ro31UABBPl5ejtp/view?usp=sharing)]    
 ### 주요 결과:     
 • 기존 모델 대비 파라미터 21.6배, FLOPs 58.9배 감소     
 • 이미지 검색 정확도(Precision@K) 5-fold cross validation 결과 대부분에서 성능 향상     
