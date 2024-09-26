@@ -8,22 +8,21 @@
     - Multimedia Tools and Materials (SCIE)    
     - 심사 중 (2024.09.20 1차 Revision 완료)    
 2. 저자구분: 주저자    
-3. 논문 주요내용: 대규모 환경의 계층적 Visual Localization 단계에서 Global Localization을 위한 새로운 Image Retrieval 모델 제안  
-  a) Multi-modal CrossViT (Vision Transformer) 모델 :    
+3. 논문 주요내용: 대규모 환경의 계층적 Visual Localization 단계에서 Global Localization을 위한 새로운 Image Retrieval 모델 제안  a) Multi-modal CrossViT (Vision Transformer) 모델 :    
     - 이미지 특징과 3D 공간 정보를 모두 활용하여 더 견고한 Global descriptor 생성    
-    -  두 개의 별도 브랜치를 통해 이미지 패치와 3D 공간 정보를 처리       
-  b) Spatial Contrastive Learning:        
-    -  Anchor 이미지에 대한 Positive 및 Negative 이미지 셋을 공유된 3D 포인트 존재 여부에 따라 지정   
+    - 두 개의 별도 브랜치를 통해 이미지 패치와 3D 공간 정보를 처리       
+b) Spatial Contrastive Learning:        
+    - Anchor 이미지에 대한 Positive 및 Negative 이미지 셋을 공유된 3D 포인트 존재 여부에 따라 지정   
     - 3D 바운딩 박스 간 IoU(Intersection over Union)를 유사성 측정에 활용        
-  c) Knowledge Distillation 접근법 적용:       
+c) Knowledge Distillation 접근법 적용:       
     - Multi-modal CrossViT(Teacher)의 임베딩 능력을 단일 이미지 입력 모델(Student)로 전달  
     - 실제 응용단계에서 제약 조건을 고려한 효율적인 추론 모델 구현      
-  d) 성능 평가 및 분석:    
+d) 성능 평가 및 분석:    
     - 기존 모델 대비 파라미터 21.6배, FLOPs 58.9배 감소     
     - 이미지 검색 정확도(Precision@K) 5-fold cross validation 결과 대부분에서 성능 향상     
     - 일부 벤치마크에서 카메라 포즈 정확도(meter, degree) 향상   
 
-결론:  이를 통해 모델을 크게 줄이면서도 이미지 검색 정확도를 향상해 SCIE 급 저널에 주저자로 제출했습니다. 질의 이미지와 동일 공간의 참조 이미지를 빠르고 정확하게 검색하면, 기하학적 매칭 연산을 통해 질의 이미지의 정확한 카메라 포즈를 추정할 수 있어 자율주행, 로봇 분야에서 파급 효과를 볼 수 있습니다.  
+결론: 이를 통해 모델을 크게 줄이면서도 이미지 검색 정확도를 향상해 SCIE 급 저널에 주저자로 제출했습니다. 질의 이미지와 동일 공간의 참조 이미지를 빠르고 정확하게 검색하면, 기하학적 매칭 연산을 통해 질의 이미지의 정확한 카메라 포즈를 추정할 수 있어 자율주행, 로봇 분야에서 파급 효과를 볼 수 있습니다.  
 
 ### 선행 연구:  
 • 석사 학위 논문 (2023.12): [영상 위치 파악을 위한 공간적 CrossViT 기반 다중 모달 메트릭 학습](https://dcollection.cau.ac.kr/srch/srchDetail/000000241188?treePageNum=1&navigationSize=10&orgYn=all&thesisDegree=all&pageSize=10&ajax=false&searchText=%5B%EC%A0%84%EC%B2%B4%3AVisual+localization%5D&agreeYn=all&sortField=score&sortDir=desc&searchOption=km&searchOperator2=%2B&searchOperator3=%2B&searchWhere1=all&searchWhere2=all&insCode=211052&searchWhere3=all&searchKeyWord1=Visual+localization&query=%2B%28%28all%3Avisual%2Blocalization%29%29&itemTypeCode=all&start=0&searthTotalPage=0&rows=10&pageNum=1&searchTotalCount=0)  
