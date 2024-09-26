@@ -8,8 +8,7 @@
     - Multimedia Tools and Materials (SCIE)    
     - 심사 중 (2024.09.20 1차 Revision 완료)    
 2. 저자구분: 주저자    
-3. 논문 주요내용:  
-• 대규모 환경의 계층적 Visual Localization 단계에서 Global Localization을 위한 새로운 Image Retrieval 모델을 제안:  
+3. 논문 주요내용: 대규모 환경의 계층적 Visual Localization 단계에서 Global Localization을 위한 새로운 Image Retrieval 모델 제안  
     a) Multi-modal CrossViT (Vision Transformer) 모델 :  
     • 이미지 특징과 3D 공간 정보를 모두 활용하여 더 견고한 Global descriptor 생성  
     •  두 개의 별도 브랜치를 통해 이미지 패치와 3D 공간 정보를 처리      
