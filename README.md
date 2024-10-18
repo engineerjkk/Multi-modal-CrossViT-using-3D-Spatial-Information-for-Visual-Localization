@@ -1,7 +1,7 @@
 **!아직 논문 Publish 이전 단계이므로, 코드를 제공하지 않습니다:** 업로드된 코드는 Base 코드입니다.    
 : 1차 Revision 완료 및 업데이트(↓).    
   
-## Multi modal CrossViT using 3D-Spatial Information for Visual Localization [[Paper](https://drive.google.com/file/d/16deTO1LvQE-eh0E4dOQJt9njEz26IRIu/view?usp=sharing)] [Online](https://link.springer.com/article/10.1007/s11042-024-20382-w?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20241018&utm_content=10.1007%2Fs11042-024-20382-w)   
+## Multi modal CrossViT using 3D-Spatial Information for Visual Localization [[Paper](https://drive.google.com/file/d/16deTO1LvQE-eh0E4dOQJt9njEz26IRIu/view?usp=sharing)] [[Online](https://link.springer.com/article/10.1007/s11042-024-20382-w?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20241018&utm_content=10.1007%2Fs11042-024-20382-w)]   
 
 ### 국문 요약:  
 1. 게재처(학회/학술지):    
